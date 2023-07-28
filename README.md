@@ -9,12 +9,12 @@ The Graph Attention Network is a powerful graph neural network model for learnin
 
 
 ## Overview
-The Graph Attention Network (GAT) is a graph neural network architecture designed specifically for handling graph-structured data. It leverages multi-head attention mechanism to capture the information of neighboring nodes in an attentive manner to learn represtations for each node. This attention mechanism allows the model to focus on relevant nodes and adaptively weight their contributions during message passing.
+The Graph Attention Network (GAT) is a graph neural network architecture designed specifically for handling graph-structured data. It leverages multi-head attention mechanism to capture the information of neighboring nodes in an attentive manner to learn representations for each node. This attention mechanism allows the model to focus on relevant nodes and adaptively weight their contributions during message passing.
 
 Check out the following resources for more ino on GATs:
 - [Blog post by the main auther, Petar Velickovic](https://petar-v.com/GAT/)
 - [Main paper](https://doi.org/10.48550/arXiv.1710.10903)
-- [My own Medium post explaining the paper]()
+- [My own Medium post explaining the paper](https://medium.com/towards-artificial-intelligence/graph-attention-networks-paper-explained-with-illustration-and-pytorch-implementation-eb35edba562c)
 
 
 This repository provides a clean and short implementation of the official GAT model using PyTorch. The code is well-documented and easy to understand, making it a valuable resource for researchers and practitioners interested in graph deep learning.
